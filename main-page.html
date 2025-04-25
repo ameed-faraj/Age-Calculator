@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bundle.js">
+    
+</head>
+    <body>
+
+
+    <main>
+        <section id="calculator">
+            <h2>Age Calculator</h2>
+            
+                <label for="birthdate">Enter your birthdate:</label>
+                <input type="text" id="birthdate" required placeholder="YYYY-MM-DD" pattern="\d{2}-\d{2}-\d{4}">
+                <button type="submit">Calculate Age</button>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="bundle.js"></script>
+
+
+    </body>
+  
+</html>
